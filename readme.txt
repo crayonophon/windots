@@ -8,3 +8,4 @@ currently includes:
   - wallpaper
   - personal iosevka build
   - windows terminal settings
+  - firefox userchrome (waterfall)
