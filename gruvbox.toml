@@ -1,0 +1,67 @@
+# Gruvbox
+# Theme create by: https://github.com/yorukot
+# Update by(sort by time):
+# 
+# Thanks for all contributor!!
+
+# If you want to make border display just set it same as sidebar background color
+
+# Code syntax highlight theme (you can go to https://github.com/alecthomas/chroma/blob/master/styles to find one you like)
+code_syntax_highlight = "gruvbox"
+
+# ========= Border =========
+file_panel_border = "#575653"
+sidebar_border = "#575653"
+footer_border = "#343331"
+
+# ========= Border Active =========
+file_panel_border_active = "#575653"
+sidebar_border_active = "#575653"
+footer_border_active = "#343331"
+modal_border_active = "#343331"
+
+# ========= Background (bg) =========
+full_screen_bg = "#1C1B1A"
+file_panel_bg = "#1C1B1A"
+sidebar_bg = "#1C1B1A"
+footer_bg = "#1C1B1A"
+modal_bg = "#1C1B1A"
+
+# ========= Foreground (fg) =========
+full_screen_fg = "#CECDC3"
+file_panel_fg = "#CECDC3"
+sidebar_fg = "#CECDC3"
+footer_fg = "#CECDC3"
+modal_fg = "#CECDC3"
+
+# ========= Special Color =========
+cursor = "#4385BE"
+correct = "#4385BE"
+error = "#4385BE"
+hint = "#4385BE"
+cancel = "#575653"
+# Gradient color can only have two color!
+gradient_color = ["#343331", "#878580"]
+
+# ========= File Panel Special Items =========
+file_panel_top_directory_icon = "#8EC07C"
+file_panel_top_path = "#575653"
+file_panel_item_selected_fg = "#4385BE"
+file_panel_item_selected_bg = "#1C1B1A"
+
+# ========= Sidebar Special Items =========
+sidebar_title = "#575653"
+sidebar_item_selected_fg = "#4385BE"
+sidebar_item_selected_bg = "#1C1B1A"
+sidebar_divider = "#575653"
+
+# ========= Modal Special Items =========
+modal_cancel_fg = "#CECDC3"
+modal_cancel_bg = "#6D6D6D"
+
+modal_confirm_fg = "#CECDC3"
+modal_confirm_bg = "#FF4D00"
+
+# ========= Help Menu =========
+help_menu_hotkey = "#8EC07C"
+help_menu_title = "#FF4D00"

@@ -1,0 +1,105 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "firstWindowPreference": "defaultProfile",
+    "initialPosition": ",",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "launchMode": "default",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Monoflex",
+            "font": 
+            {
+                "face": "BonbonMono, Kawkab Mono"
+            }
+        },
+        "list": 
+        [
+            {
+                "colorScheme": "Monoflex",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "builtinGlyphs": false,
+                    "face": "BonbonMono, JetBrainsMono Nerd Font Mono"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "C:\\Users\\chicken-jockey\\AppData\\Local\\clink\\clink_green.ico",
+                "name": "powershell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "font": 
+                {
+                    "face": "BonbonMono"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#1C1B1A",
+            "black": "#1C1B1A",
+            "blue": "#575653",
+            "brightBlack": "#575653",
+            "brightBlue": "#878580",
+            "brightCyan": "#878580",
+            "brightGreen": "#878580",
+            "brightPurple": "#878580",
+            "brightRed": "#878580",
+            "brightWhite": "#FFFCF0",
+            "brightYellow": "#878580",
+            "cursorColor": "#4385BE",
+            "cyan": "#575653",
+            "foreground": "#CECDC3",
+            "green": "#575653",
+            "name": "Monoflex",
+            "purple": "#575653",
+            "red": "#575653",
+            "selectionBackground": "#4385BE",
+            "white": "#CECDC3",
+            "yellow": "#575653"
+        }
+    ],
+    "tabWidthMode": "equal",
+    "theme": "dark",
+    "themes": []
+}
