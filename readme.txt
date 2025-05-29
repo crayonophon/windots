@@ -7,3 +7,4 @@ currently includes:
   - superfile theme (incomplete)
   - wallpaper
   - personal iosevka build
+  - windows terminal settings
